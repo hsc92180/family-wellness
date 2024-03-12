@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding : 20px;
+}
+
+h1 {
+    color: rgb(224, 94, 94);
+}
+
+h6 {
+    margin : 5px 0px 20px 0px;
+}
+
+nav {
+    margin : 20px 0px;
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgb(179, 178, 178);
+}
+
+ul li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;font-size: small;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+ul li.active {
+    background-color: rgb(181, 34, 34);
+}
+ul li:hover {
+    background-color: rgb(181, 34, 34);
+}
