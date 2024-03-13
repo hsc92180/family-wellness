@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Body.css";
 export default function Body() {
   return (
     <div>
@@ -7,7 +7,7 @@ export default function Body() {
         <img
           src="https://nationaltoday.com/wp-content/uploads/2022/07/17-Family-Wellness-Month-1200x834.jpg"
           width={"100%"}
-          height={"605"}
+          height={"100%"}
           alt="images"
         />
       </div>
@@ -15,7 +15,7 @@ export default function Body() {
         <h1>Think Health. Think Massage</h1>
         <p>
           We are open 9am to 6pm; Monday through Sunday. If you would like to
-          scedule an appointment with us, please call us at 987-654-3210 today!
+          scedule an appointment<br></br> with us, please call us at 987-654-3210 today!
         </p>
         <div className="btn-container">
           <button className="btn1">LEARN MORE ABOUT US</button>
@@ -24,14 +24,10 @@ export default function Body() {
       </div>
       <div className="text-container2">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat
+          Are you looking for aprofessional, registered  massage therapist? Sample Massage Therapy has 4 registered assage therapist who can provide clinical massage.
         </p>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur.
+          we commited toyour long  term health and well-being. Our multi-discipilinary clinic provides a balanced approch to a healthy lifestyle. Enhance your ha
         </p>
         <p>
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui

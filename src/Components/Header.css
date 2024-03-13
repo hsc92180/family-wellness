@@ -36,8 +36,8 @@ ul li a{
     font-weight: 600;
 }
 ul li.active {
-    background-color: rgb(181, 34, 34);
+    background-color: rgba(159, 12, 35, 0.88);
 }
 ul li:hover {
-    background-color: rgb(181, 34, 34);
+    background-color: rgba(159, 12, 35, 0.88);
 }
